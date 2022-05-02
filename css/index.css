@@ -1,0 +1,791 @@
+body {
+    background: url("../images/cherrybranch_back.jpg") no-repeat center fixed;
+    background-size: cover;
+    overflow-x: hidden; 
+}
+
+#desc {
+    margin-left: 27.5em;
+    font-size: 45px;
+    margin-top: 3em;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 2em;
+}
+
+#intro_text {
+    margin-top: -7em;
+      margin-left: 25em;
+      font-family: 'EB Garamond', serif;
+    font-size: 50px;
+}
+
+.button {
+    background-color: #c47171;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: -2em;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .button_pause {
+    background-color: #c47171;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  #sad {
+      margin-top: -31em;
+      margin-left: 92em;
+      height: 448px;
+  }
+
+  #angry {
+    margin-top: -31em;
+    margin-left: 92em;
+    height: 448px;
+}
+
+#happy {
+    margin-top: -31em;
+    margin-left: 92em;
+    height: 448px;
+}
+
+#doubt_you {
+    margin-top: -31em;
+    margin-left: 92em;
+    height: 448px;
+}
+
+#doubt_us {
+    margin-top: -31em;
+    margin-left: 92em;
+    height: 448px;
+}
+
+  #sad_text {
+    margin-left: -8em;
+    font-size: 26px;
+    padding-right: 2em;
+    font-family: 'EB Garamond', serif;
+    
+}
+
+#angry_text {
+    margin-left: -8em;
+    font-size: 26px;
+    padding-right: 2em;
+    font-family: 'EB Garamond', serif;
+}
+
+#happy_text {
+    margin-left: -8em;
+    font-size: 26px;
+    padding-right: 2em;
+    font-family: 'EB Garamond', serif;
+}
+
+#doubt_you_text {
+    margin-left: -8em;
+    font-size: 26px;
+    padding-right: 2em;
+    font-family: 'EB Garamond', serif;
+}
+
+#doubt_us_text {
+    margin-left: -8em;
+    font-size: 26px;
+    padding-right: 2em;
+    font-family: 'EB Garamond', serif;
+}
+
+    .hidden {
+        display : none;
+    }
+
+    .hidden1 {
+        display : none;
+    }
+
+    .hidden2 {
+        display : none;
+    }
+
+    .hidden3 {
+        display : none;
+    }
+
+    .hidden4 {
+        display : none;
+    }
+
+
+#line {
+    border-left: 1px solid #c47171;
+    height: 500px;
+    margin-left: 75em;
+    margin-top: -29em;
+}
+
+#link1 {
+    text-decoration: none;
+    color: inherit;
+    font-size: 26px;
+    margin-left: 34.5em;
+    cursor: pointer;
+}
+
+#link2 {
+    text-decoration: none;
+    color: inherit;
+    font-size: 26px;
+    margin-left: 34.5em;
+    cursor: pointer;
+}
+#link3 {
+    text-decoration: none;
+    color: inherit;
+    font-size: 26px;
+    margin-left: 34.5em;
+    cursor: pointer;
+}
+#link4 {
+    text-decoration: none;
+    color: inherit;
+    font-size: 26px;
+    margin-left: 34.5em;
+    cursor: pointer;
+}
+#link5 {
+    text-decoration: none;
+    color: inherit;
+    font-size: 26px;
+    margin-left: 34.5em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1800px) {
+
+    #desc {
+        margin-left: 26em;
+    }
+
+    .block {
+        margin-left: -4em;
+    }
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+    #desc {
+        margin-left: 24em;
+    }
+
+    .block {
+        margin-left: -10em;
+    }
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+    #desc {
+        margin-left: 22.5em;
+    }
+
+    .block {
+        margin-left: -14em;
+    }
+
+    #sad_text {
+        font-size: 24px;
+    }
+
+    #angry_text {
+        font-size: 24px;
+    }
+
+    #happy_text {
+        font-size: 24px;
+    }
+
+    #doubt_you_text {
+        font-size: 24px;
+    }
+
+    #doubt_us_text {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    #desc {
+        font-size: 35px;
+        margin-left: 26.5em;
+    }
+
+    #line {
+        height: 450px;
+        margin-top: -27em;
+    }
+
+    #link1 {
+        font-size: 22px;
+        margin-left: 43em;
+    }
+
+    #link2 {
+        font-size: 22px;
+        margin-left: 43em;
+    }
+
+    #link3 {
+        font-size: 22px;
+        margin-left: 43em;
+    }
+
+    #link4 {
+        font-size: 22px;
+        margin-left: 43em;
+    }
+
+    #link5{
+        font-size: 22px;
+        margin-left: 43em;
+    }
+
+    .block {
+        margin-left: -14em;
+    }
+
+    .button {
+        margin-left: -3.5em;
+    }
+
+    #line {
+        margin-top: -25em;
+    }
+
+    #sad {
+        margin-top: -28em;
+      margin-left: 90em;
+    }
+
+    #angry {
+        margin-top: -28em;
+      margin-left: 90em;
+    }
+
+    #happy {
+        margin-top: -28em;
+      margin-left: 90em;
+    }
+
+    #doubt_you {
+        margin-top: -28em;
+      margin-left: 90em;
+    }
+
+    #doubt_us {
+        margin-top: -28em;
+      margin-left: 90em;
+    }
+
+    #sad_text {
+        font-size: 20px;
+        padding-left: 0em;
+    }
+
+    #angry_text {
+        font-size: 20px;
+        padding-left: 0em;
+    }
+
+    #happy_text {
+        font-size: 20px;
+        padding-left: 0em;
+    }
+
+    #doubt_you_text {
+        font-size: 20px;
+        padding-left: 0em;
+    }
+
+    #doubt_us_text {
+        font-size: 20px;
+        padding-left: 0em;
+    }
+   
+
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    #desc {
+        margin-top: 6em;
+    }
+
+    .block {
+        margin-left: -20em;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    #desc {
+        margin-left: 22em;
+    }
+
+    .block {
+        margin-left: -28em;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #desc {
+        margin-left: 20em;
+    }
+
+    .block {
+        margin-left: -30em;
+    }
+
+    .button {
+        margin-left: -5.5em;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+
+    #desc {
+        margin-left: 18em;
+    }
+    
+    .block {
+        margin-left: -34em;
+    }
+
+    .button {
+        margin-left: -7em;
+    }
+
+    #sad_text {
+        font-size: 19px;
+    }
+
+    #doubt_you_text {
+        font-size: 19px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .block {
+        margin-left: -37em;
+    }
+
+    #link1 {
+        font-size: 20px;
+        margin-left: 49.1em;
+    }
+
+    #link2 {
+        font-size: 20px;
+        margin-left: 49.1em;
+    }
+
+    #link3 {
+        font-size: 20px;
+        margin-left: 49.1em;
+    }
+
+    #link4 {
+        font-size: 20px;
+        margin-left: 49.1em;
+    }
+
+    #link5{
+        font-size: 20px;
+        margin-left: 49.1em;
+    }
+
+    .button {
+        padding: 14px;
+    }
+
+    .button_pause {
+        padding: 14px;
+    }
+
+    #sad_text {
+        padding-right: 1em;
+        font-size: 18px;
+        margin-left: -12em;
+    }
+
+    #angry_text {
+        padding-right: 1em;
+        font-size: 18px;
+        margin-left: -12em;
+    }
+
+    #happy_text {
+        padding-right: 1em;
+        font-size: 18px;
+        margin-left: -12em;
+    }
+
+    #doubt_you_text {
+        padding-right: 1em;
+        font-size: 18px;
+        margin-left: -12em;
+    }
+
+    #doubt_us_text {
+        padding-right: 1em;
+        font-size: 18px;
+        margin-left: -12em;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    #desc {
+        margin-left: 16em;
+    }
+
+    .block {
+        margin-left: -42em;
+    }
+
+    .button {
+        margin-left: -9em;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    #desc {
+        margin-left: 14em;
+    }
+
+    .block {
+        margin-left: -48em;
+    }
+
+    #link1 {
+        font-size: 18px;
+        margin-left: 56em;
+    }
+
+    #link2 {
+        font-size: 18px;
+        margin-left: 56em;
+    }
+
+    #link3 {
+        font-size: 18px;
+        margin-left: 56em;
+    }
+
+    #link4 {
+        font-size: 18px;
+        margin-left: 56em;
+    }
+
+    #link5{
+        font-size: 18px;
+        margin-left: 56em;
+    }
+
+    .button {
+        margin-left: -10em;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    #desc {
+        margin-left: 12em;
+    }
+
+    .block {
+        margin-left: -51em;
+    }
+
+    .button {
+        margin-left: -12em;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    #desc {
+        margin-left: 11em;
+    }
+
+    .block {
+        margin-left: -53em;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #link1 {
+        font-size: 16px;
+        margin-left: 64em;
+    }
+
+    #link2 {
+        font-size: 16px;
+        margin-left: 64em;
+    }
+
+    #link3 {
+        font-size: 16px;
+        margin-left: 64em;
+    }
+
+    #link4 {
+        font-size: 16px;
+        margin-left: 64em;
+    }
+
+    #link5{
+        font-size: 16px;
+        margin-left: 64em;
+    }
+
+    #line {
+        margin-top: -22em;
+    }
+
+    .block {
+        margin-left: -55em;
+    }
+
+    #desc {
+        margin-left:10em;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    .block {
+        background-color: rgba(219,112,147,.7);
+        margin-right: -0.5em;
+        padding: 0;
+    }
+
+    #link1 {
+        font-size: 18px;
+        margin-left: 52em;
+        padding-top: 1em;
+    }
+
+    #link2 {
+        font-size: 18px;
+        margin-left: 52em;
+    }
+
+    #link3 {
+        font-size: 18px;
+        margin-left: 52em;
+    }
+
+    #link4 {
+        font-size: 18px;
+        margin-left: 52em;
+    }
+
+    #link5{
+        font-size: 18px;
+        margin-left: 52em;
+    }
+
+    #line {
+        height: 400px;
+        margin-top: -22.3em;
+        margin-left: 72em;
+    }
+
+    #sad_text {
+        padding-right: 1.5em;
+        margin-left: -18em;
+        font-size: 15px;
+    }
+
+    #angry_text {
+        padding-right: 1em;
+        margin-left: -18em;
+        font-size: 15px;
+    }
+    
+    #happy_text {
+        padding-right: 1em;
+        margin-left: -18em;
+        font-size: 15px;
+    }
+
+    #doubt_you_text {
+        padding-right: 1em;
+        margin-left: -18em;
+        font-size: 15px;
+    }
+
+    #doubt_us_text {
+        padding-right: 1em;
+        margin-left: -18em;
+        font-size: 15px;
+    }
+
+    .button {
+        margin-top: 4em;
+        margin-left: -13em;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    #desc {
+        margin-bottom: 0em;
+        margin-left: 7em;
+    }
+
+    .block {
+        margin-right: -0.5em;
+        padding-right: 0em;
+    }
+
+    #link1 {
+        font-size: 17px;
+        margin-left: 53.5em;
+        padding-top: 1em;
+    }
+
+    #link2 {
+        font-size: 17px;
+        margin-left: 53.5em;
+    }
+
+    #link3 {
+        font-size: 17px;
+        margin-left: 53.5em;
+    }
+
+    #link4 {
+        font-size: 17px;
+        margin-left: 53.5em;
+    }
+
+    #link5{
+        font-size: 17px;
+        margin-left: 53.5em;
+    }
+
+    #line {
+        margin-top: -21.35em;
+        height: 360px;
+        margin-left: 69em;
+    }
+
+    .button {
+        margin-top: 6em;
+        margin-left: -16em;
+    }
+
+    #sad_text {
+        margin-left: -21.6em;
+        padding-right: 4em;
+    }
+
+    #angry_text {
+        margin-left: -21.6em;
+        padding-right: 4em;
+    }
+
+    #happy_text {
+        margin-left: -21.6em;
+        padding-right: 4em;
+    }
+
+    #doubt_you_text {
+        margin-left: -21.6em;
+        padding-right: 4em;
+    }
+
+    #doubt_us_text {
+        margin-left: -21.6em;
+        padding-right: 4em;
+    }
+
+}
+
+
+@media only screen and (max-width: 520px) {
+
+    #sad_text {
+        margin-left: -21.6em;
+        padding-right: 4.5em;
+    }
+
+    #angry_text {
+        margin-left: -21.6em;
+        padding-right: 4.5em;
+    }
+
+    #happy_text {
+        margin-left: -21.6em;
+        padding-right: 4.5em;
+    }
+
+    #doubt_you_text {
+        margin-left: -21.6em;
+        padding-right: 4.5em;
+    }
+
+    #doubt_us_text {
+        margin-left: -21.6em;
+        padding-right: 4.5em;
+    }
+
+}
+

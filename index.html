@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/369310ef47.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>R & N</title>
+</head>
+<body>
+    
+    <div id="desc">
+        <h2>R & N</h2>
+    </div>
+
+    <div class="block">
+        <div class="choice">
+        <script>
+            function showhide() {
+                document.getElementById("sad").style.display = "block";
+                document.getElementById("angry").style.display = "none";
+                document.getElementById("happy").style.display = "none";
+                document.getElementById("doubt_you").style.display = "none";
+                document.getElementById("doubt_us").style.display = "none";
+                document.getElementById("intro").style.display = "none";
+            }
+
+            function showhide1() {
+                document.getElementById("sad").style.display = "none";
+                document.getElementById("angry").style.display = "block";
+                document.getElementById("happy").style.display = "none";
+                document.getElementById("doubt_you").style.display = "none";
+                document.getElementById("doubt_us").style.display = "none";
+                document.getElementById("intro").style.display = "none";
+            }
+
+            function showhide2() {
+                document.getElementById("sad").style.display = "none";
+                document.getElementById("angry").style.display = "none";
+                document.getElementById("happy").style.display = "block";
+                document.getElementById("doubt_you").style.display = "none";
+                document.getElementById("doubt_us").style.display = "none";
+                document.getElementById("intro").style.display = "none";
+            }
+
+            function showhide3() {
+                document.getElementById("sad").style.display = "none";
+                document.getElementById("angry").style.display = "none";
+                document.getElementById("happy").style.display = "none";
+                document.getElementById("doubt_you").style.display = "block";
+                document.getElementById("doubt_us").style.display = "none";
+                document.getElementById("intro").style.display = "none";
+            }
+
+            function showhide4() {
+                document.getElementById("sad").style.display = "none";
+                document.getElementById("angry").style.display = "none";
+                document.getElementById("happy").style.display = "none";
+                document.getElementById("doubt_you").style.display = "none";
+                document.getElementById("doubt_us").style.display = "block";
+                document.getElementById("intro").style.display = "none";
+            }
+          </script>
+
+        <p id="link1" onclick="showhide()">When you feel sad</p>
+        <br>
+        <p id="link2" onclick="showhide1()">When you feel angry</p>
+        <br>
+        <p id="link3" onclick="showhide2()">When you feel happy</p>
+        <br>
+        <p id="link4" onclick="showhide3()">When you doubt yourself</p>
+        <br>
+        <p id="link5" onclick="showhide4()">When you doubt us</p>
+    </div>
+        
+        <div id="line"> </div>
+    <div class="show">
+
+      <div id="intro" class="hidden5">
+          <p id="intro_text"><strong>For R from N</strong> <br><br> </p>
+    </div>
+
+
+        <div id="sad" class="hidden">
+            <script>
+                function play1() {
+                  var audio = document.getElementById("audio");
+                  audio.play();
+                }
+
+                function play1_pause() {
+                  var audio = document.getElementById("audio");
+                  audio.pause();
+                  audio.currentTime = 0;
+                }
+              </script>
+          
+              <input id="button1" class="button" type="button" value="PLAY" onclick="play1()">
+              <input id="button1" class="button_pause" type="button" value="STOP" onclick="play1_pause()">
+              <audio id="audio" src="miaandseb.mp3"></audio>
+
+              <p id="sad_text"><strong>The War for Peace</strong> <br><br> Imagination is the only weapon against reality. The tears of today reflect the sparks of tomorrow. Go forth to your mind palace.
+              Lay waste to worry and put out its fires. At the very corner of reality, a fragment of hope and joy can be found. You must stand not with the perpetual
+              sadness, lest you be immobilized by gravity. Wage war on gravity, remembering who you are. Love is a gift you give to yourself. </p>
+        </div>
+
+        <div id="angry" class="hidden1">
+            <script>
+                function play2() {
+                  var audio = document.getElementById("audio1");
+                  audio.play();
+                }
+
+                function play2_pause() {
+                  var audio = document.getElementById("audio1");
+                  audio.pause();
+                  audio.currentTime = 0;
+                }
+              </script>
+          
+              <input id="button1" class="button" type="button" value="PLAY" onclick="play2()">
+              <input id="button1" class="button_pause" type="button" value="STOP" onclick="play2_pause()">
+              <audio id="audio1" src="killthemall.mp3"></audio>
+
+              <p id="angry_text"><strong>In Anger's Embrace</strong> <br><br> My hidden friend of many summers, <br> I never ache to see your visage, <br> but alas like many others, <br> I am but your humble hostage
+              <br><br> Those were long dinners, <br> my expensive luxury, <br> yet emotion still lingers, <br> craving for discovery
+              <br><br> </p>
+        </div>
+
+        <div id="happy" class="hidden2">
+            <script>
+                function play3() {
+                  var audio = document.getElementById("audio3");
+                  audio.play();
+                }
+
+                function play3_pause() {
+                  var audio = document.getElementById("audio3");
+                  audio.pause();
+                  audio.currentTime = 0;
+                }
+              </script>
+          
+              <input id="button1" class="button" type="button" value="PLAY" onclick="play3()">
+              <input id="button1" class="button_pause" type="button" value="STOP" onclick="play3_pause()">
+              <audio id="audio3" src="merryoflife.mp3"></audio>
+
+              <p id="happy_text"><strong>The Spring Haiku</strong> <br><br>Touched by dawn's forthcoming rays, <br> adorned in love and beauty, <br> the cherry blossom springs, <br> shining light upon abyss </p>
+        </div>
+
+        <div id="doubt_you" class="hidden3">
+            <script>
+                function play4() {
+                  var audio = document.getElementById("audio4");
+                  audio.play();
+                }
+
+                function play4_pause() {
+                  var audio = document.getElementById("audio4");
+                  audio.pause();
+                  audio.currentTime = 0;
+                }
+              </script>
+          
+              <input id="button1" class="button" type="button" value="PLAY" onclick="play4()">
+              <input id="button1" class="button_pause" type="button" value="STOP" onclick="play4_pause()">
+              <audio id="audio4" src="luna.mp3"></audio>
+
+              <p id="doubt_you_text"><strong>Light's Path</strong> <br><br> You are the source that illuminates the lighthouse. By spirit, you are deathless, imperishable.
+                What a shame it is to shroud your existence, like the Moon under a cloud. Bring out your magnificence. Let the fire within you rekindle once more. Lose 
+                yourself. Escape your earthly form and pierce the skies. A speck of your light can reignite the Sun and swallow darkness whole. Enter the silence
+                and do not fear this loss. Rise and embrace the endless heavens.  </p>
+        </div>
+
+        <div id="doubt_us" class="hidden4">
+            <script>
+                function play5() {
+                  var audio = document.getElementById("audio5");
+                  audio.play();
+                }
+
+                function play5_pause() {
+                  var audio = document.getElementById("audio5");
+                  audio.pause();
+                  audio.currentTime = 0;
+                }
+              </script>
+          
+              <input id="button1" class="button" type="button" value="PLAY" onclick="play5()">
+              <input id="button1" class="button_pause" type="button" value="STOP" onclick="play5_pause()">
+              <audio id="audio5" src="saturn.mp3"></audio>
+
+              <p id="doubt_us_text"><strong>The Mystery of Love</strong> <br><br> Though we seek to explain love, when we fall in love, our words fall short,
+                as love unexplained is clearer. Practice the art of love. Keep its mysteries concealed, for only love can truly explain love. Be a rider of true love, and
+                never fear the way. Never underestimate its swift pace, as a single bound can bring us home, though the road may be rocky and uneven. <br><br>  </p>
+        </div>
+    </div>
+    </div>
+
+    
+
+
+
+
+
+
+    
+
+</body>
+</html>
